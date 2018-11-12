@@ -4,22 +4,18 @@
 	<title>Table V04</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
-<!--===============================================================================================-->
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<!-- animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+	<!-- select2 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" />
+	<!-- perfect-scrollbar -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/css/perfect-scrollbar.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/Listutil.css">
 	<link rel="stylesheet" type="text/css" href="css/Listmain.css">
-<!--===============================================================================================-->
 </head>
 <body>
 	<?php
@@ -40,8 +36,7 @@
 		<div class="container-table100">
 			<div class="wrap-table100">
 				<div class="mb-4">
-				<a href="/index.html" class="btn btn-dark pull-right"><i class="fa fa-home" aria-hidden="true"></i>
-				</a>
+				<a href="index.html" class="btn btn-dark pull-right"><i class="fa fa-home" aria-hidden="true"></i></a>
 					<h3>Kişiler</h3>
 				</div>
 				<div class="table100 ver1 m-b-10">
@@ -91,17 +86,16 @@
 			</div>
 		</div>
 	</div>
-
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- bootstrap -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- select2 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
+	<!-- perfect-scrollbar -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/perfect-scrollbar.min.js"></script>
 	<script>
 		$('.js-pscroll').each(function(){
 			var ps = new PerfectScrollbar(this);
