@@ -1,13 +1,13 @@
 <?php
 
 
-$name=         $_GET["name"];
-$mail=         $_GET["mail"];
-$birthday=     $_GET["birthday"];
-$phone=        $_GET["phone"];
-$position=     $_GET["position"];
-$knowledge=    $_GET["knowledge"];
-$message=      $_GET["message"];
+$name=              $_GET["name"];
+$mail=                $_GET["mail"];
+$birthday=          $_GET["birthday"];
+$phone=             $_GET["phone"];
+$position=          $_GET["position"];
+$knowledge=     $_GET["knowledge"];
+$message=         $_GET["message"];
 
 
 try
