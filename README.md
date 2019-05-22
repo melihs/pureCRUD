@@ -12,8 +12,7 @@
 `$db=new  PDO("mysql:host=localhost;dbname=formdb;
 charset=utf8","root"," ");`
 
-
-
+![](https://i.ibb.co/4fpnWm7/form.jpg)
 
 ------
 > Written with [StackEdit](https://stackedit.io/).
